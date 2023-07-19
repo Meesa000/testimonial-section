@@ -1,0 +1,18 @@
+.body {
+    font-family: "Roboto", sans-serif;
+    width: 1920px;
+    height: 1280px;
+    color: whitesmoke;
+}
+
+/* title */
+
+.title-container{
+    width: 250px;
+    height: 250px;
+    margin: 0px auto 0px auto;
+}
+.title {    
+    font-size: 40px;  
+    margin-top: 25px ;
+}
