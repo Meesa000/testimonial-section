@@ -1,4 +1,4 @@
-.body {
+body {
     font-family: "Roboto", sans-serif;
     width: 1920px;
     height: 1280px;
@@ -28,20 +28,39 @@
 /* left side */
 
 .left-container {
+    display: inline-block;
     text-align: center;
-    width: 500px;
-    height: 500px;
+    width: 20%;
+    height: 350px;
     margin-left: 150px;
     margin-top: -50px;
 }
 
 .left-text-title {
-    display: inline;
     font-size: 24px;
 }
 
 .left-text {
+    
     visibility: hidden;
+    font-size: 18px;
+}
+
+/* middle container */
+
+.middle-container {
+    display: inline-block;
+    text-align: center;
+    width: 48%;
+    height: 350px;
+    margin: 0px auto 0px auto;
+}
+
+.middle-text-title {
+    font-size: 24px;
+}
+
+.middle-text {
     font-size: 18px;
 }
 
