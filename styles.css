@@ -5,6 +5,13 @@
     color: whitesmoke;
 }
 
+/* Key frames */
+
+@keyframes fadeIn {
+    0% { opacity: 0;}
+    100% {opacity: 1;}
+}
+
 /* title */
 
 .title-container{
@@ -24,11 +31,31 @@
     text-align: center;
     width: 500px;
     height: 500px;
-    border: 5px solid black;
     margin-left: 150px;
     margin-top: -50px;
 }
 
 .left-text-title {
+    display: inline;
+    font-size: 24px;
+ 
     
 }
+
+.left-text {
+    visibility: hidden;
+    
+}
+
+/* hovers */
+
+/* text fade in when left title hovered */
+.left-text-title:hover + .left-text{
+    visibility: visible;
+    animation: fadeIn 5s;
+}
+
+.left-text-title:hover {
+    text-decoration: underline;
+}
+
